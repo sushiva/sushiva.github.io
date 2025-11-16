@@ -275,10 +275,11 @@ a:hover {
 }
 
 .hero-title {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: clamp(2rem, 4vw, 3rem); /* smaller but still responsive */
     margin-bottom: var(--spacing-md);
     animation: fadeInUp 0.8s ease;
 }
+
 
 .hero-icons {
     display: flex;
