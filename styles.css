@@ -523,11 +523,17 @@ a:hover {
   border-radius: 10px;
   background-color: #f9f9f9;
   margin-bottom: 20px;
+  color: #333; /* <-- ensures readable dark text */
 }
 
 .skill-card h4 {
-  color: #007bff;
+  color: #007bff; /* keep your blue heading */
 }
+
+.skill-card ul li {
+  color: #333; /* explicitly set list item text color */
+}
+
 
 .skills {
     background: var(--bg-darker);
