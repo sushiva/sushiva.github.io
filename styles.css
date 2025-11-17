@@ -795,7 +795,11 @@ a:hover {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.3s ease; /* ✅ smooth zoom */
+    transition: transform 0.3s ease; 
+    cursor: zoom-in !important;           /* ADD THIS */
+    pointer-events: auto !important;      /* ADD THIS */
+    position: relative;                   /* ADD THIS */
+    z-index: 1;                          /* ADD THIS *//* ✅ smooth zoom */
 }
 
 /* Zoom when hovering directly on the image 
@@ -822,6 +826,7 @@ a:hover {
     opacity: 0;
     transition: var(--transition-base);
     pointer-events: none; /* ✅ allows hover to reach image */
+    z-index: 2; 
 }
 
 .project-card:hover .project-overlay {
@@ -843,6 +848,8 @@ a:hover {
     color: var(--text-primary);
     font-size: 1.25rem;
     transition: var(--transition-base);
+    pointer-events: auto !important;     /* ADD THIS */
+    z-index: 3;       
 }
 
 .project-link:hover {
