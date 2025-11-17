@@ -299,6 +299,7 @@ a:hover {
         var(--bg-dark);
     position: relative;
     overflow: hidden;
+    margin-top: var(--spacing-lg); /* ✅ adds consistent gap below navbar */
 }
 
 .hero::before {
