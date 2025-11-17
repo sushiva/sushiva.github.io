@@ -282,6 +282,11 @@ a:hover {
 /* ========================================
    Hero Section
 ======================================== */
+.section {
+    padding: var(--spacing-lg) 0;
+    position: relative;
+}
+
 .hero {
     min-height: auto;
     display: flex;
