@@ -789,6 +789,7 @@ a:hover {
     position: relative;
     overflow: hidden;
     height: 250px;
+   transition: transform 0.3s ease; /* ✅ add this */
 }
 
 .project-image img {
@@ -801,7 +802,15 @@ a:hover {
 .project-card:hover .project-image img {
     transform: scale(1.1);
 }
+/* Zoom when hovering directly on the image */
+.project-image img:hover {
+    transform: scale(1.05);
+}
 
+/* Zoom when hovering anywhere on the card */
+.project-card:hover .project-image img {
+    transform: scale(1.05);
+}
 .project-overlay {
     position: absolute;
     top: 0;
