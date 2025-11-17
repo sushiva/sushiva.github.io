@@ -826,7 +826,10 @@ a:hover {
 
 .project-card:hover .project-overlay {
     opacity: 1;
-    pointer-events: auto; /* ✅ clickable when visible */
+}
+
+.project-card:hover .project-link {
+    pointer-events: auto;
 }
 
 .project-link {
@@ -912,6 +915,7 @@ a:hover {
 .project-highlights i {
     color: var(--accent-color);
 }
+
 
 /* ========================================
    Contact Section
