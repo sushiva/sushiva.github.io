@@ -222,6 +222,14 @@ a:hover {
     background-clip: text;
 }
 
+.nav-tagline {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-weight: 400;
+    margin-top: 0.25rem;
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
@@ -1134,6 +1142,10 @@ a:hover {
     
     .hamburger {
         display: flex;
+    }
+    
+    .nav-tagline {
+        display: none;
     }
     
     .hamburger.active span:nth-child(1) {
