@@ -683,13 +683,11 @@ a:hover {
 }
 
 .cert-card {
-    background: var(--bg-card);
-    padding: var(--spacing-md);
-    border-radius: var(--radius-lg);
-    border: 1px solid rgba(0, 217, 255, 0.1);
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
+  background: var(--bg-card);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(0, 217, 255, 0.1);
+  text-align: center;   /* ✅ centers text and inline elements */
 }
 
 .cert-card::before {
@@ -752,9 +750,9 @@ a:hover {
 }
 
 .cert-img {
-  width: 60px;
+  width: 80px;          /* adjust size (60px for badges, 120px for banners) */
   height: auto;
-  margin: 0 auto 1rem auto; /* center + spacing */
+  margin: 0 auto 1rem auto; /* ✅ centers the image */
   display: block;
 }
 
