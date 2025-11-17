@@ -751,6 +751,14 @@ a:hover {
     font-weight: bold;
 }
 
+.cert-img {
+  width: 60px;
+  height: auto;
+  margin: 0 auto 1rem auto; /* center + spacing */
+  display: block;
+}
+
+
 /* ========================================
    Projects Section
 ======================================== */
