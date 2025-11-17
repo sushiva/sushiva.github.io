@@ -800,14 +800,14 @@ a:hover {
 
 /* Zoom when hovering directly on the image */
 .project-image img:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
-/* Zoom when hovering anywhere on the card */
+/* Zoom when hovering anywhere on the card 
 .project-card:hover .project-image img {
     transform: scale(1.05);
 }
-
+*/
 .project-overlay {
     position: absolute;
     top: 0;
