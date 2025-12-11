@@ -53,6 +53,9 @@ ML/AI Engineer with **12+ years in full‑stack Java engineering** and proven ex
 
 ---
 
+
+## 📌 Predictive Research Inc. — Research Associate  
+**May 2023 – June 2025**
 ## **Project: PowerGrid AI Tutor — Advanced RAG System for Electrical Engineering & Renewable Energy**
 
 **Live Demo:**  
@@ -108,10 +111,6 @@ _Screenshot: Interactive AI tutor with query expansion, hybrid search, and reran
 - **Documentation:** [Architecture & Implementation Details](https://github.com/sushiva/powergrid-ai-tutor/tree/main/docs)
 
 ---
-
-
-## 📌 Predictive Research Inc. — Research Associate  
-**May 2023 – June 2025**
 
 ### **Project: arXiv Paper Curator + Financial Documents RAG — Production AI Research Assistant**
 
