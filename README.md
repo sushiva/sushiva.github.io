@@ -172,9 +172,12 @@ _Screenshot: Dual RAG system querying arXiv papers and SEC financial filings_
 ---
 
 # 🎓 Academic Projects
-- 📘 *LLM‑Powered Document QA Assistant* — Built with LangChain + FAISS, enabling domain‑specific Q&A over PDFs  
-- 📊 *Retail Demand Forecasting* — Implemented XGBoost with feature engineering, achieving 92% accuracy on Kaggle dataset  
-- 🤖 *Neural Network Classifier for Image Data* — Developed CNN model for image recognition with TensorFlow  
+
+> [**View Full Academic Portfolio →**](https://github.com/sushiva/academic-projects)
+
+- 🏗️ **[Safety Helmet Detection](https://github.com/sushiva/academic-projects/tree/main/academic/safety-helmet-detection)** — Binary image classification with ResNet18 transfer learning achieving 100% accuracy. Systematic 4-model comparison showing transfer learning achieves perfect accuracy with 20,000× fewer parameters than training from scratch.
+
+- 🦠 **[COVID-19 X-Ray Classification](https://github.com/sushiva/covid-xray-detection)** — Multi-class chest X-ray classification (COVID-19, Viral Pneumonia, Normal) achieving 88.46% accuracy. Comparative study of 4 preprocessing techniques (RGB, Grayscale, Blur, Laplacian) showing RGB outperforms by 27-42%.  
 
 ---
 
